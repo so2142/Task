@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    width: 400px;
+    height: 450px;
+}
+
+.flex {
+    display: flex;
+}
+
+.header--box {
+    height: 100px;
+    background: #ff0000;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.main--leftbox {
+    width: 150px;
+    height: 250px;
+    background:  #00FF1e;
+    float: left;
+}
+
+.main--rightbox {
+    width: 250px;
+    height: 250px;
+    background:  #3300ff;
+    float: right;
+}
+.footer--box {
+    height: 100px;
+    background:  #ffe600;
+}
